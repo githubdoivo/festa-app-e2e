@@ -1,0 +1,20 @@
+{
+  "name": "appdoivo-e2e",
+  "private": true,
+  "type": "module",
+  "description": "BDD end-to-end tests (Playwright + Cucumber) for the public appdoivo demo",
+  "scripts": {
+    "typecheck": "tsc",
+    "test": "bddgen && playwright test",
+    "test:api": "bddgen && playwright test --project=api",
+    "test:ui": "bddgen && playwright test --project=iphone --project=desktop",
+    "test:smoke": "bddgen && playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "playwright-bdd": "^9.2.1",
+    "typescript": "^7.0.2"
+  }
+}
