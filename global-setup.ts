@@ -2,7 +2,7 @@
 // wakes it up. Wake it once here, so no individual test pays for the cold
 // start or mistakes it for a failure.
 export default async function globalSetup() {
-  const base = process.env.BASE_URL ?? 'https://appdoivo-demo.fly.dev';
+  const base = process.env.BASE_URL ?? 'https://demo.appdoivo.com';
   const deadline = Date.now() + 90_000;
   let last = '';
   while (Date.now() < deadline) {

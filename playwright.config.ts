@@ -19,7 +19,7 @@ export default defineConfig({
   globalSetup: './global-setup.ts',
   use: {
     // Point the suite at any copy of the app, e.g. a local or QA server.
-    baseURL: process.env.BASE_URL ?? 'https://appdoivo-demo.fly.dev',
+    baseURL: process.env.BASE_URL ?? 'https://demo.appdoivo.com',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
   },
