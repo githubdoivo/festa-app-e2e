@@ -1,9 +1,9 @@
 # appdoivo-e2e
 
-[![E2E](https://github.com/githubdoivo/appdoivo-e2e/actions/workflows/e2e.yml/badge.svg)](https://github.com/githubdoivo/appdoivo-e2e/actions/workflows/e2e.yml)
-&nbsp;**[Latest test report →](https://githubdoivo.github.io/appdoivo-e2e/)**
+[![E2E](https://github.com/githubdoivo/festa-app-e2e/actions/workflows/e2e.yml/badge.svg)](https://github.com/githubdoivo/festa-app-e2e/actions/workflows/e2e.yml)
+&nbsp;**[Latest test report →](https://githubdoivo.github.io/festa-app-e2e/)**
 
-Behaviour-driven end-to-end tests for **[appdoivo](https://github.com/githubdoivo/appdoivo)**,
+Behaviour-driven end-to-end tests for **[appdoivo](https://github.com/githubdoivo/festa-app)**,
 running against its public demo at **[demo.appdoivo.com](https://demo.appdoivo.com)**.
 
 The scenarios are written in **Gherkin** and run with **Playwright** through
