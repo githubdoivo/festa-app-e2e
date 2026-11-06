@@ -1,10 +1,10 @@
-# festa-app-e2e
+# lodge-app-e2e
 
-[![E2E](https://github.com/githubdoivo/festa-app-e2e/actions/workflows/e2e.yml/badge.svg)](https://github.com/githubdoivo/festa-app-e2e/actions/workflows/e2e.yml)
-&nbsp;**[Latest test report →](https://githubdoivo.github.io/festa-app-e2e/)**
+[![E2E](https://github.com/githubdoivo/lodge-app-e2e/actions/workflows/e2e.yml/badge.svg)](https://github.com/githubdoivo/lodge-app-e2e/actions/workflows/e2e.yml)
+&nbsp;**[Latest test report →](https://githubdoivo.github.io/lodge-app-e2e/)**
 
-Behaviour-driven end-to-end tests for **[festa-app](https://github.com/githubdoivo/festa-app)** (Festa, the party app),
-running against its public demo at **[festa-demo.appdoivo.com](https://festa-demo.appdoivo.com)**.
+Behaviour-driven end-to-end tests for **[lodge-app](https://github.com/githubdoivo/lodge-app)** (Lodge, the party app),
+running against its public demo at **[lodge-demo.appdoivo.com](https://lodge-demo.appdoivo.com)**.
 
 The scenarios are written in **Gherkin** and run with **Playwright** through
 [playwright-bdd](https://github.com/vitalets/playwright-bdd), in TypeScript:
